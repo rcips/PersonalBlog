@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+* {
+
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(spmUM.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin: 8px;
+    background-blend-mode: multiply;
+}
+
+header{
+
+        background-color: transparent;
+        color: black;
+        width: 100%;
+        height: 50px;
+        font-size: larger;
+        
+        
+        
+
+}
+
+header:hover{
+    color: grey;
+    transition: 0.5s ease;
+}
+
+nav{
+    position: sticky;
+    background-color:brown;
+    overflow: auto;
+    white-space: nowrap;
+    height: 70px;
+    font-size: larger;
+
+    
+    
+
+}
+.nav-list{
+
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.137);
+    height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    position: sticky;
+   
+
+}
+
+li{
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 100%;
+    padding-right:20px;
+    margin-right:100px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+a:hover {
+    color:grey;
+    text-decoration: none;
+    transition: 0.5s ease;
+    width: 100%;
+    height: 50px;
+ 
+}
+
+div{
+    display: block;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 320px;
+    background-color: rgba(210, 180, 140, 0.493);
+    padding: 10px;
+    
+    
+  
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+    
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    
+   
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    clear:both;
+    width: 100%;
+    height: 40px;
+
+   
+  }
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+img{
+  width: 330px;
+  height: 3300px;
+  object-fit: cover;
+  }
+
+
+
+
